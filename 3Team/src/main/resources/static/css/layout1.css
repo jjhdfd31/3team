@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: TTTogether;
+    list-style: none;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+}
+
+.footer {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    list-style: none;
+    text-align: left;
+    box-shadow: 0px 1px 0px #797979;
+}
+.footer section{
+    margin: 5%;
+}
+.footer h1{margin-bottom: 10px; font-size: 1.5rem;}
+.footer p{color: white;font-size: 0.9rem; }
+.footer ul{display: flex;}
+.footer li{margin-right: 10%;}
+
+
+.content {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.col-md-4 margin {
+    width: 30%;
+}
+
+a{
+    cursor: pointer;
+}
